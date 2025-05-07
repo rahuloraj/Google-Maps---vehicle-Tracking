@@ -1,0 +1,18 @@
+.mapContainer {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: static;
+  color: #fff;
+  /* margin-top: 20px; */
+}
+.mapContainer > div {
+  margin: 20px 20px;
+}
+.btnCont {
+  display: flex;
+  justify-content: center;
+}
